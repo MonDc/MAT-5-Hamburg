@@ -1,0 +1,16 @@
+.clas1{
+    color: blue;
+    
+}
+.clas2{
+    color: red;
+    
+}
+.clas1 , .clas2{
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.divclass .pclass {
+    color: green;
+}
