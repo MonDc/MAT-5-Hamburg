@@ -1,0 +1,23 @@
+.clasdiv1{
+    background-color: red;
+    width: 33.33%;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.clasdiv2{
+    background-color: blue;
+    width: 32.33%;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 1%;
+}
+.clasdiv3{
+    background-color: yellow;
+    width: 32.33%;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 1%;
+}
