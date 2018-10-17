@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+.greendiv{
+    width:197px;
+    height: 197px;
+    background-color: green;
+    margin-left: 2px;
+    margin-right: 1px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    float: left;
+}
+.reddiv{
+    width: 197px;
+    height: 197px;
+    background-color: red;
+    margin-left: 1px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    float: left;
+}
+.yellowdiv{
+    width: 197px;
+    height: 197px;
+    background-color: yellow;
+    margin-left: 2px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    float: left;
+}
+.orangdiv{
+    width: 197px;
+    height: 197px;
+    background-color: orange;
+    margin-left: 1px;
+    margin-right: 2px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    float: left;
+}

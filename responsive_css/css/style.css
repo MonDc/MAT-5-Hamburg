@@ -1,0 +1,64 @@
+.green{
+float: left;
+width: 33.33%;
+background-color: green;
+}
+.red{
+    float: left;
+    width:33.33%;
+    background-color: red;
+}
+.blue{
+    float:left; 
+    width:33.33%;
+    background-color: blue;
+}
+.black{
+    float: left;
+    width: 50%;
+    background-color: black;
+    }
+    .aqua{
+        float: left;
+        width:25%;
+        background-color: aqua;
+    }
+    .orange{
+        float:left; 
+        width:25%;
+        background-color: orange;
+    }
+
+
+    @media screen and (max-width:480px){
+        .green{
+            float: left;
+            width: 100%;
+            background-color: green;
+            }
+            .red{
+                float: left;
+                width:100%;
+                background-color: red;
+            }
+            .blue{
+                float:left; 
+                width:100%;
+                background-color: blue;
+            }
+            .black{
+                float: left;
+                width: 100%;
+                background-color: black;
+                }
+                .aqua{
+                    float: left;
+                    width:100%;
+                    background-color: aqua;
+                }
+                .orange{
+                    float:left; 
+                    width:100%;
+                    background-color: orange;
+                }
+    }
