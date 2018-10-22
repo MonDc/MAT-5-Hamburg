@@ -37,10 +37,19 @@ function innerLoop(){
     document.getElementById("result").innerHTML="";
     for(let i=1;i<=10;i++){
         for(let x=1 ;x<=10 ; x++){
-            document.getElementById("result").innerHTML += "i is"+i+" and x is "+x+"<br>";
+            document.getElementById("result").innerHTML +=
+             "i is"+i+" and x is "+x+"<br>";
+        }
+    }
+}
+    function multiable(){
+        document.getElementById("result").innerHTML="";
+        for(let i=1;i<=10;i++){
+            for(let g=1 ;g<=10 ; g++){
+                document.getElementById("result").innerHTML +=
+                 "I MUL X="+g*i+"<br>";
+            }
         }
 
 
-
-    }
 }
