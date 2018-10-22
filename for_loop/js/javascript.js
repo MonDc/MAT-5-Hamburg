@@ -47,9 +47,27 @@ function innerLoop(){
         for(let i=1;i<=10;i++){
             for(let g=1 ;g<=10 ; g++){
                 document.getElementById("result").innerHTML +=
-                 "I MUL X="+g*i+"<br>";
+                 "I MUL X="+g*i+"<input type='text' id='text"+g*i+"'><br>";
             }
         }
 
 
+}
+function squer(){
+    document.getElementById("result").innerHTML="";
+    for(let i=1;i<=10;i++){
+        for(let g=1 ;g<=10 ; g++){
+            document.getElementById("result").innerHTML +="*";
+        }
+        document.getElementById("result").innerHTML +="<br>";
+    }
+}
+function triangle(){
+    document.getElementById("result").innerHTML="";
+    for(let i=1;i<=10;i++){
+        for(let g=1 ;g<=i ; g++){
+            document.getElementById("result").innerHTML +="*";
+        }
+        document.getElementById("result").innerHTML +="<br>";
+    }
 }
