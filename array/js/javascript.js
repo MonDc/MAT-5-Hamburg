@@ -15,6 +15,7 @@ function calc(){
 let inputNumber=parseFloat( document.getElementById("markInput").value);
 numbers[idx]=inputNumber;
 idx++;
+document.getElementById("markInput").value="";
 }
 
 function show(){
@@ -22,4 +23,37 @@ function show(){
     for(let i=0;i<numbers.length;i++){
         document.getElementById("result").innerHTML +=numbers[i]+"<br>";
     }
+}  
+
+
+function findGreater(){
+    document.getElementById("result").innerHTML="";
+    let comparNumber=numbers[0];
+    for(let i=1;i<numbers.length;i++){
+        if(comparNumber<numbers[i]){
+            comparNumber=numbers[i];
+        }
+    }
+    document.getElementById("result").innerHTML=comparNumber;
+}
+function findSmaller(){
+    document.getElementById("result").innerHTML="";
+    let comparNumber=numbers[0];
+    for(let i=1;i<numbers.length;i++){
+        if(comparNumber> numbers[i]){
+            comparNumber=numbers[i];
+        }
+    }
+    document.getElementById("result").innerHTML=comparNumber;
+}
+
+function findSum(){
+    document.getElementById("result").innerHTML="";
+    let sumNumber=0;
+    for(let i=0;i<numbers.length;i++){
+        
+            sumNumber= sumNumber+ numbers[i];
+        
+    }
+    document.getElementById("result").innerHTML=sumNumber;
 }
