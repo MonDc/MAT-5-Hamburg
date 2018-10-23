@@ -53,7 +53,6 @@ function findSum(){
     for(let i=0;i<numbers.length;i++){
         
             sumNumber= sumNumber+ numbers[i];
-        
     }
     document.getElementById("result").innerHTML=sumNumber;
 }
