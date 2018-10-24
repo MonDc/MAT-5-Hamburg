@@ -10,10 +10,10 @@
 </head>
 <body>
     <ul class="nav">
-        <li class="active"><a  href="#" onclick="homeClick()">Home</a></li>
-        <li><a href="#" onclick="aboutClick()">About</a></li>
-        <li><a href="#" onclick="contactClick()">Contact</a></li>
-        <li><a href="#" onclick="galleryClick()">Gallery</a></li>
+        <li class="active"><a  href="#" onclick="homeClick(this)">Home</a></li>
+        <li><a href="#" onclick="aboutClick(this)">About</a></li>
+        <li><a href="#" onclick="contactClick(this)">Contact</a></li>
+        <li><a href="#" onclick="galleryClick(this)">Gallery</a></li>
         <li class="dropdown"><a  href="#">DE</a>
         <div class="dropdown-content">
             <a href="#">En</a>
@@ -23,6 +23,7 @@
     </ul>
     <div id="homeDiv" class="contentDiv" >
         <h1>Home</h1>
+        
     </div>
     <div id="aboutDiv" class="contentDiv" style="display: none;">
         <h1>About</h1>
@@ -33,5 +34,6 @@
     <div id="galleryDiv" class="contentDiv" style="display: none;">
         <h1>Gallery</h1>
     </div>
+    hi I am not on the tabs
 </body>
 </html>
