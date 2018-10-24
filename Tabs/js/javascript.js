@@ -1,4 +1,5 @@
 function homeClick(i){
+    document.getElementsByClassName("active")[0].classList.remove("active");
     i.parentNode.classList.add("active");
     document.getElementById("homeDiv").style="";
     document.getElementById("galleryDiv").style="display: none;";
@@ -6,6 +7,7 @@ function homeClick(i){
     document.getElementById("contactDiv").style="display: none;";
 }
 function aboutClick(me){
+    document.getElementsByClassName("active")[0].classList.remove("active");
     me.parentNode.classList.add("active");
     document.getElementById("aboutDiv").style="";
     document.getElementById("galleryDiv").style="display: none;";
@@ -13,6 +15,7 @@ function aboutClick(me){
     document.getElementById("contactDiv").style="display: none;";
 }
 function galleryClick(you){
+    document.getElementsByClassName("active")[0].classList.remove("active");
     you.parentNode.classList.add("active");
     document.getElementById("aboutDiv").style="display: none;";
     document.getElementById("galleryDiv").style="";
@@ -20,6 +23,7 @@ function galleryClick(you){
     document.getElementById("contactDiv").style="display: none;";
 }
 function contactClick(him){
+    document.getElementsByClassName("active")[0].classList.remove("active"); 
     him.parentNode.classList.add("active");
     document.getElementById("aboutDiv").style="display: none;";
     document.getElementById("galleryDiv").style="display: none;";
