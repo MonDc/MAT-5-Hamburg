@@ -56,3 +56,10 @@ function findSum(){
     }
     document.getElementById("result").innerHTML=sumNumber;
 }
+
+function arraySort(){
+    //numArray.sort((a, b) => a - b); // For ascending sort
+    //numArray.sort((a, b) => b - a); // For descending sort
+    numbers.sort((a, b) => b - a);
+    show();
+}
