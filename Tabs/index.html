@@ -11,9 +11,9 @@
 <body>
     <ul class="nav">
         <li class="active"><a  href="#" onclick="homeClick()">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Gallery</a></li>
+        <li><a href="#" onclick="aboutClick()">About</a></li>
+        <li><a href="#" onclick="contactClick()">Contact</a></li>
+        <li><a href="#" onclick="galleryClick()">Gallery</a></li>
         <li class="dropdown"><a  href="#">DE</a>
         <div class="dropdown-content">
             <a href="#">En</a>
@@ -21,7 +21,7 @@
         </div>
         </li>
     </ul>
-    <div id="homeDiv" class="contentDiv" style="display: none;">
+    <div id="homeDiv" class="contentDiv" >
         <h1>Home</h1>
     </div>
     <div id="aboutDiv" class="contentDiv" style="display: none;">
@@ -30,7 +30,7 @@
     <div id="contactDiv" class="contentDiv" style="display: none;">
         <h1>Contact</h1>
     </div>
-    <div id="galleryDiv" class="contentDiv">
+    <div id="galleryDiv" class="contentDiv" style="display: none;">
         <h1>Gallery</h1>
     </div>
 </body>
