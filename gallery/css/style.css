@@ -1,0 +1,24 @@
+.unit{
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 30%;
+}
+.unit:hover{
+    border: 1px solid red;
+    box-shadow: 10px 10px 5px gray;
+}
+.unit img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+@media only screen and (max-width : 466px){
+.unit{
+    width: 100%;
+}
+}
